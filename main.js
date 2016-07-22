@@ -8,7 +8,7 @@ function animate(){
     ctx.drawImage(bg,0,0,c.width,c.height);
     if(player.dead){
         //alert("what are you doing????");
-        //window.location.href ="http://www.beesbeesbees.com/";
+        window.location.href ="loserino.html";
         return;
     }
 

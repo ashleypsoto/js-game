@@ -28,6 +28,6 @@ var enemy ={
     },
     
     render:function(){    
-    ctx.drawImage(this.sprite,this.x, this.y, 50, 50);
+    ctx.drawImage(this.sprite,this.x-50, this.y-50, 100, 100);
     }
 };

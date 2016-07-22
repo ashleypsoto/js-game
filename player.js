@@ -37,7 +37,7 @@ sprites: [document.getElementById("playerf1"),
             flipCtx(ctx, this);
         }
             
-        ctx.drawImage(this.sprites[this.spriteNum],this.x,this.y, 100, 100);
+        ctx.drawImage(this.sprites[this.spriteNum],this.x-40,this.y-40, 80, 80);
         if(this.dir == "left"){
             restoreCtx(ctx);
         
