@@ -19,6 +19,7 @@ $(document).keyup(function(e){
 
 $(document).on('touchstart',function(e){
     //where the touch happens:
+    e.preventDefault();
     var touchX= e.touches[0].clientX;
     var touchY= e.touches[0].clientY;
     if(touchX < player.x) player.velX =-5;
